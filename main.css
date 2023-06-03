@@ -1,0 +1,9 @@
+/* main.css */
+.navbar-transparent {
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+.navbar-transparent.scrolled {
+    background-color: rgba(255, 255, 255, 0.9);
+}

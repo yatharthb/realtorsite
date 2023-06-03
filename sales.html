@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Sales</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Real Estate</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="property-listings.html">Property Listings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="past-sales.html">Past Sales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reviews.html">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Past Sales -->
+    <section class="container mt-5">
+        <h2 class="text-center">Past Sales</h2>
+        <div class="row" id="past-sales">
+            <!-- Past sales cards will be generated here via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+  <footer class="bg-light py-3 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2023 Real Estate Website. All Rights Reserved.</p>
+            <div>
+                <a href="#" class="text-dark mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-dark mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-dark mx-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-dark mx-2"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Reuse the Footer component from the index.html file -->
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/sales.js"></script>
+</body>
+
+</html>
